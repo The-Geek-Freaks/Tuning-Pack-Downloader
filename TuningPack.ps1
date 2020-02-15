@@ -2,7 +2,7 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 
 #Tuning Pack Downloader
 ############################################################################################################################################################################################################
-while (!(test-connection 8.8.8.8 -Count 1 -Quiet)) {
+while (!(test-connection 37.120.179.48 -Count 1 -Quiet)) {
     $Verbindungbesteht = $true
     break
 }
