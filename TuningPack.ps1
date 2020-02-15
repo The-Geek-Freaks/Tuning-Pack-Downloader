@@ -1,7 +1,6 @@
 Set-ExecutionPolicy Unrestricted -Scope Process
 
 #Tuning Pack Downloader
-#Ja, das ist kein guter Code. Ich habe alle Regeln missachtet. Aber es funktioniert, von daher ........
 ############################################################################################################################################################################################################
 while (!(test-connection 8.8.8.8 -Count 1 -Quiet)) {
     $Verbindungbesteht = $true
